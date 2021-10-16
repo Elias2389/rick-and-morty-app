@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ae.rickandmortyapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".core.App"
         android:allowBackup="true"
@@ -11,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RickAndMortyApp">
         <activity
-            android:name=".ui.characterlist.view.MainActivity"
+            android:name=".ui.characterlist.view.CharacterListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
