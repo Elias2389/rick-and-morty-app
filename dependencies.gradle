@@ -6,10 +6,10 @@ ext {
     coreTestingVersion = '2.1.0'
     materialVersion = '1.3.0'
     retrofitVersion = '2.9.0'
-    okioversion = '2.2.2'
-    gsonVersion = '2.8.5'
+    okioversion = '2.10.0'
+    gsonVersion = '2.8.6'
     loggingInterceptorVersion = '4.7.2'
-    okHttpVersion = '3.14.9'
+    okHttpVersion = '4.9.1'
     fragmentKtxVersion = '1.2.4'
     coreKtxversion = '1.3.2'
     constraintLayoutVersion = '2.0.4'
@@ -29,4 +29,5 @@ ext {
     testRunnerVersion = "1.3.0"
     testExtVersion = "1.1.2"
     activityKtxVersion = '1.2.3'
+    groupie_version = '2.9.0'
 }
