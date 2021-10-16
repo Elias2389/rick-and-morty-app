@@ -34,7 +34,6 @@ class CharacterListActivity : AppCompatActivity() {
         getCharacterList()
     }
 
-
     private fun getCharacterList() {
         viewModel.getAllCharacters().observe(this, Observer { result ->
             when(result.status) {

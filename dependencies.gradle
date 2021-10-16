@@ -30,4 +30,5 @@ ext {
     testExtVersion = "1.1.2"
     activityKtxVersion = '1.2.3'
     groupie_version = '2.9.0'
+    paging_version = '3.0.1'
 }
